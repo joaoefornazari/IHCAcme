@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="realPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="326.0" prefWidth="366.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="acmetelas.AcmeSACController">
+   <center>
+      <Label prefHeight="90.0" prefWidth="287.0" text="Para contatar um de nossos atendentes, ligue para o número 0800 726 9007, ou para (42) 3222-2322." wrapText="true" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+   </center>
+   <bottom>
+      <AnchorPane fx:id="rootPane" prefHeight="68.0" prefWidth="366.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="bVoltar" layoutX="66.0" layoutY="9.0" mnemonicParsing="false" onAction="#handleButtonVoltar" prefHeight="26.0" prefWidth="109.0" text="Voltar" />
+            <Button fx:id="bSair" layoutX="196.0" layoutY="9.0" mnemonicParsing="false" onAction="#handleButtonSair" prefHeight="26.0" prefWidth="109.0" text="Sair" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

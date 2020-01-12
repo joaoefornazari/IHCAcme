@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="196.0" prefWidth="332.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="confirmtelas.ErroRelatorioController">
+   <bottom>
+      <Button fx:id="bOK" mnemonicParsing="false" onAction="#handleButtonOK" prefHeight="26.0" prefWidth="103.0" text="Ok" BorderPane.alignment="BASELINE_CENTER" />
+   </bottom>
+   <center>
+      <Label text="Administrador cadastrado com sucesso !" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

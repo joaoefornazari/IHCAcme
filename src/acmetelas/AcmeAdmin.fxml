@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="realPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="386.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="acmetelas.AcmeAdminController"> 
+    <AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="386.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+       <children>
+          <Button fx:id="bCadAdmin" layoutX="51.0" layoutY="201.0" mnemonicParsing="false" onAction="#handleButtonCadAdmin" prefHeight="42.0" prefWidth="300.0" text="Cadastar Administrador">
+             <font>
+                <Font size="16.0" />
+             </font>
+          </Button>
+          <Button fx:id="bSair" layoutX="51.0" layoutY="293.0" mnemonicParsing="false" onAction="#handleButtonSair" prefHeight="42.0" prefWidth="300.0" text="Sair">
+             <font>
+                <Font size="16.0" />
+             </font>
+          </Button>
+          <Label layoutX="182.0" layoutY="69.0" prefHeight="20.0" prefWidth="87.0" text="Serviço de">
+             <font>
+                <Font size="16.0" />
+             </font>
+          </Label>
+          <Label layoutX="182.0" layoutY="103.0" prefHeight="20.0" prefWidth="137.0" text="Atendimento ao">
+             <font>
+                <Font size="16.0" />
+             </font>
+          </Label>
+          <Label layoutX="182.0" layoutY="137.0" prefHeight="20.0" prefWidth="107.0" text="Consumidor">
+             <font>
+                <Font size="16.0" />
+             </font>
+          </Label>
+          <Label layoutX="51.0" layoutY="83.0" prefHeight="60.0" prefWidth="121.0" text="ACME" textFill="#da1111">
+             <font>
+                <Font name="Roboto Black Italic" size="44.0" />
+             </font>
+          </Label>
+          <Button fx:id="bCadProduto" layoutX="50.0" layoutY="247.0" mnemonicParsing="false" onAction="#handleButtonCadProduto" prefHeight="42.0" prefWidth="300.0" text="Cadastrar Produto">
+             <font>
+                <Font size="16.0" />
+             </font>
+          </Button>
+       </children>
+    </AnchorPane>
+</BorderPane>
