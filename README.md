@@ -7,7 +7,8 @@ Um SAC da empresa fictícia ACME (Looney Tunes), onde o usuário cliente pode re
 
 ## Para abrir
 Antes de executar o projeto, copie a pasta _acme_ para dentro do diretório onde o MySQL armazena os bancos de dados no seu _hardware_. No Ubuntu, esta pasta é /lib/mysql.
-Abra o NetBeans e clique em "Abrir Projeto". Depois, procure pela pasta deste repositório que você baixou e abra o projeto. Então é só clicar no botão "Executar Projeto" no seu NetBeans. Infelizmente, não obtive êxito em gerar um executável deste projeto.
+
+Feito isso, abra o NetBeans e clique em "Abrir Projeto". Depois, procure pela pasta deste repositório que você baixou e abra o projeto. Então é só clicar no botão "Executar Projeto" no seu NetBeans. Infelizmente, não obtive êxito em gerar um executável deste projeto.
 
 ## Trabalhos futuros
 - Registro (_log_) das atividades realizadas pelo cliente (pelo menos o envio de reclamações);
